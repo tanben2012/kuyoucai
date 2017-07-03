@@ -1,7 +1,7 @@
 $(function(){
     //加载公共头尾
-    $('#header').load('public/header.html');
-    $('#footer').load('public/footer.html');
+    $('#header').load('/kuyoucai/public/header.html');
+    $('#footer').load('/kuyoucai/public/footer.html');
     //表格隔行换色
     $("tbody>tr:even").addClass("even");
     //选项卡
